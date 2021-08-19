@@ -1,0 +1,20 @@
+.audit-table-title {
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.auditlog-thead {
+  background-color: #5ce1e6;
+  border-color: #5ce1e6;
+  font-weight: 600;
+}
+
+.column-date {
+  width: 140px!important;
+  border-bottom-width: 2!important;
+}
+
+.column-action {
+  width: 100px!important;
+  border-bottom-width: 2!important;
+}

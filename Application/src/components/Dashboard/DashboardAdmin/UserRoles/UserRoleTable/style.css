@@ -1,0 +1,64 @@
+table th {
+    padding: 0!important;
+}
+
+main div h4 {
+    margin-bottom: 0px;
+}
+
+.roles-table-title {
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.roles-table .thead {
+    background-color: #5ce1e6;
+    font-weight: 600;
+}
+
+.sorting-icon {
+    color: #fff;
+}
+
+.roles-table-filter .dropdown-menu {
+    padding: 0;
+}
+
+.roles-table-filter.show {
+    background-color: #5ce1e6 !important; 
+    border: none !important;
+}
+
+.table-header-text {
+    margin-left: 1px;
+}
+
+.form-control-sm {
+    margin: 0.2rem 0.2rem 0 0.2rem;
+    border: none !important;
+}
+
+.roles-table-button {
+    margin-right: 0;
+}
+
+#employmentpop {
+    position: absolute;
+    right: 0;
+    margin-top: 3.5em;
+}
+
+.roles-auto-col {
+    width: 360px;
+    max-width: 100%;
+    margin-right: 2px !important;
+}
+
+.roles-cancel-button {
+    margin-left: 95px !important;
+}
+
+
+/* *{
+    outline: 1px solid red
+} */

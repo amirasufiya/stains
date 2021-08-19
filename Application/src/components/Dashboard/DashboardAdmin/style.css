@@ -1,0 +1,29 @@
+.admin-content {
+    align-items: center;
+    width: 100%;
+    font-size: 15px;
+}
+
+.useradmin-div{
+    padding: 0rem !important;
+}
+
+.pageview-div{
+    padding: 0rem !important;
+}
+
+.notloggedin-div{
+    padding-left: 0rem !important;
+    padding-right: 0rem !important;
+}
+
+.cardstyle {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.card {
+    margin: 10px;
+}

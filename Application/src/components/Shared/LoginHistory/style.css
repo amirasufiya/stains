@@ -1,0 +1,31 @@
+.hiddenRow {
+	padding: 0 !important;
+  }
+  
+  .sticky {
+	position:-webkit-sticky;
+	position: sticky;
+	top: 0;
+	z-index: 1;
+  }
+  
+  .tablestyle{
+	text-align:center;
+  }
+
+  #loginhistory-content {
+    display: table-cell;
+    width: 100%;
+    padding: 0rem;
+    overflow-x: hidden;
+  }
+
+  .loginhistory-table-thead {
+    background-color: #5ce1e6;
+    border-color: #5ce1e6;
+    font-weight: 600 !important;
+  }
+  
+  .loginhistory-icon {
+    color: #fff;
+  }

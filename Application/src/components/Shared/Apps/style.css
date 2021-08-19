@@ -1,0 +1,273 @@
+.hiddenRow {
+  padding: 0 !important;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.tablestyle {
+  text-align: center;
+}
+
+td:empty::before {
+  content: "(None)";
+}
+
+.closeform {
+  float: right;
+  margin-top: 8px;
+}
+
+/*
+  *  Position the #userdetailpop element in the top-right
+  *  of the .wrappertable element
+*/
+#applist-pop {
+  margin-top: -2rem;
+  margin-right: 0rem;
+  position: absolute;
+  right: 0;
+}
+
+#namedisplay {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+
+.newuser {
+  padding-bottom: 35px;
+}
+
+table thead th {
+  font-weight: 600 !important;
+  padding: 5px !important;
+}
+
+table td {
+  padding: 5px !important;
+}
+
+.table-header-text {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.header-width {
+  max-width: 250px;
+  min-width: 140px !important;
+}
+
+p #titledashboard {
+  vertical-align: middle;
+}
+
+#titledash {
+  display: inline;
+}
+
+#titleline {
+  font-size: 200%;
+  display: inline;
+}
+
+#titlelink {
+  font-size: 110%;
+  display: inline;
+}
+
+.applist-table-title {
+  margin-top: 10px;
+  display: inline-block;
+}
+
+#applist-content {
+  display: table-cell;
+  width: 100%;
+  /* vertical-align: top; */
+  padding: 0rem;
+  overflow-x: hidden;
+}
+
+.applist-table-thead {
+  background-color: #5ce1e6;
+  border-color: #5ce1e6;
+  font-weight: 600 !important;
+}
+
+.applist-icon {
+  color: #fff;
+}
+
+.applist-search.show {
+  background-color: #5ce1e6 !important;
+}
+
+.createapp-cancel-btn {
+  margin-left: 142px !important;
+}
+
+.applist-column-appname {
+  cursor: pointer;
+}
+
+.applist-column-appname:hover {
+  text-decoration: underline;
+}
+
+.applist-column-devops {
+  width: 340px !important;
+  border-bottom-width: 2 !important;
+}
+
+.applist-column-techstack {
+  width: 235px !important;
+  border-bottom-width: 2 !important;
+}
+
+.applist-column-member {
+  width: 135px !important;
+  border-bottom-width: 2 !important;
+}
+
+.applist-column-datecreated {
+  width: 145px !important;
+  border-bottom-width: 2 !important;
+}
+
+.applist-column-datemodified {
+  width: 155px !important;
+  border-bottom-width: 2 !important;
+}
+
+.applist-pop-panel {
+  margin-top: 86px !important;
+  margin-right: 2px !important;
+}
+
+.applist-pop-col-auto {
+  width: 415px;
+  max-width: 100%;
+  margin-right: 20px !important;
+}
+
+/* Color formatting for the cards */
+.fit-score-color-success {
+  background-color: #a4ff7f !important;
+}
+
+.fit-score-color-warning {
+  background-color: #ffed7f !important;
+}
+
+.fit-score-color-danger {
+  background-color: #ff7f7f !important;
+}
+
+.userlist-table-title {
+  padding-top: 0rem !important;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.appdash-thead {
+  background-color: #5ce1e6;
+  border-color: #5ce1e6;
+  font-weight: 600;
+}
+
+.column-adduser {
+  vertical-align: text-top !important;
+  width: 5px !important;
+  border-bottom-width: 2 !important;
+}
+
+#userlist-content {
+  display: table-cell;
+  width: 100%;
+  /* vertical-align: top; */
+  padding: 0rem;
+  overflow-x: hidden;
+}
+
+.userlist-createapp {
+  margin-top: 86px !important;
+  margin-right: 2px !important;
+}
+
+.rowapp-cardsize {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  max-width: 270px;
+  width: 100%;
+  text-indent: initial;
+  margin: 1px;
+}
+
+.userlist-pop {
+  margin-top: -320px;
+  margin-right: -19px;
+  width: 50%;
+  float: right;
+}
+
+.appdash {
+  margin-top: -600px;
+  margin-right: -19px;
+  width: 50%;
+  float: right;
+}
+
+.appdashNewApp {
+  margin-top: -600px;
+  margin-right: -19px;
+  width: 70%;
+  float: right;
+}
+
+.hasaccount-column {
+  width: 80% !important;
+}
+
+.cardappdetails {
+  margin: 20px;
+  margin: 0.5rem !important;
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 5px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  flex: 1 1 auto;
+  min-height: 1px;
+  margin: 0.5rem !important;
+}
+
+.updateapp-title {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.updateapp-update-button {
+  margin-right: 105px !important;
+}

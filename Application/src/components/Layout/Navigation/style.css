@@ -1,0 +1,243 @@
+.navbar-custom {
+  background: #373a47;
+  color: white;
+}
+
+.vertical {
+  z-index: 1;
+  display: flex;
+  height: 100%;
+  overflow: scroll initial;
+  z-index: 9999;
+  background: #373a47;
+}
+
+.vertical nav {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.toggle-wrap {
+  padding: 10px;
+  position: relative;
+  cursor: pointer;
+  float: left;
+}
+
+span.menu {
+  padding-left: 12px;
+}
+
+.bgcolor {
+  background-color: white;
+}
+
+.main-wrapper {
+  height: 90vh;
+}
+
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+#dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.profilepic {
+  border-radius: 4px;
+  padding: 5px;
+  width: 45px;
+  border-radius: 60%;
+  left: 100px;
+}
+
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-size: small;
+}
+
+.footer-text {
+  background-color: #606060;
+  font-weight: lighter;
+  padding: 5px 0px;
+}
+
+.footer-copyright {
+  background-color: #373a47;
+  padding: 5px 0px;
+}
+
+.dropdown-toggle::after {
+  visibility: hidden;
+}
+
+.dropdown-menu.show {
+  position: relative;
+  background-color: #343a40;
+  margin-top: 7px;
+  margin-right: 10px;
+  left: -83px;
+}
+
+#question,
+#search,
+#home {
+  width: 20px;
+  height: 20px;
+  margin-top: 0px;
+  font-size: 15em;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+@media (min-width: 768px) {
+  #home {
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+    display: table-cell;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  #question {
+    margin-right: 10px;
+    margin-left: 2px;
+    text-align: center;
+    display: table-cell;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+#icon {
+  width: 40px;
+  height: 25px;
+}
+
+#questiontext {
+  height: 28px;
+}
+
+#alignnav {
+  display: flex;
+}
+#horizontalwidth {
+  width: 100%;
+}
+
+#v-pills-tab {
+  padding-right: -30px;
+}
+
+.horizontalAfter {
+  color: #fff !important;
+  text-align: center !important;
+}
+
+.whitefont {
+  color: #fff !important;
+}
+
+/* VERTICAL NAVIGATION CSS */
+/* margin between icons when collapsed */
+.sc-Arkif.kfARSm.toggled {
+  margin-top: 10px !important;
+}
+
+/* moving to the icon to the left (when open) */
+.kfARSm {
+  padding-left: 0px !important;
+}
+
+/* moving to the icon to the left (when collapsed) */
+.sc-Arkif.kfARSm.toggled {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+/* chevron icon placement when open*/
+.ibFJFt .head-div .icon-suffix {
+  margin-left: -8px !important;
+  cursor: pointer;
+}
+
+/* chevron icon placement when collapsed*/
+.ibFJFt .head-div.toggled .icon-suffix {
+  margin-left: -8px;
+}
+
+/* set margin for the icon when collapsed*/
+.sc-Arkif.kfARSm.toggled {
+  margin-bottom: 10px !important;
+}
+
+/* width of sidebar when closed */
+.dIYCww {
+  background: #343a40 !important;
+  width: 60px !important;
+  min-width: 60px !important;
+}
+
+/* width of sidebar when opened */
+.dIYCww.toggled {
+  min-width: 250px !important;
+  width: 250px !important;
+}
+
+/* icon home center */
+.fa-fa.fa-home.fa-xlarge.fa.side-icon {
+  padding: 0px 10px 0px 6px;
+}
+
+/* icon applications center */
+.fa-far.fa-clipboard.fa-xlarge.fa.side-icon {
+  padding: 0px 10px 0px 10px;
+}
+
+/* icon audit log center */
+.fa-fas.fa-archive.fa-xlarge.fa.side-icon {
+  padding: 0px 10px 0px 8px;
+}
+
+/* icon permission center */
+.fa-fas.fa-low-vision.fa-xlarge.fa.side-icon {
+  padding: 0px 10px 0px 8px;
+}
+
+/* icon employment types center */
+.fa-fas.fa-briefcase.fa-xlarge.fa.side-icon {
+  padding: 0px 10px 0px 8px;
+}
+
+/* icon user roles center */
+.fa-far.fa-address-card.fa-xlarge.fa.side-icon {
+  padding: 0px 10px 0px 8px;
+}
+/* END OF VERTICAL NAVIGATION CSS */
+
+/* *{
+  outline: 1px solid red
+} */

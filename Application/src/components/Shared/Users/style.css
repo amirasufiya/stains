@@ -1,0 +1,240 @@
+/* body{
+	padding-top:50px;
+	background-color:#34495e;
+} */
+
+.hiddenRow {
+  padding: 0 !important;
+}
+
+.usercontent {
+  align-items: center;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.cardstyle {
+  max-width: 7rem;
+}
+
+.tablestyle {
+  text-align: center;
+}
+
+td:empty::before {
+  content: "(None)";
+}
+/* .centerimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+} */
+
+.closeform {
+  float: right;
+}
+
+.wrappertable {
+  position: relative;
+}
+/*
+  *  Position the #appdetailpop element in the top-right
+  *  of the .wrappertable element
+  */
+#appdetailpop {
+  margin-top: -2rem;
+  margin-right: 0rem;
+  position: absolute;
+  right: 0;
+}
+
+#content {
+  display: table-cell;
+  width: 100%;
+  vertical-align: top;
+  padding-top: 0.5rem;
+  padding-left: 0rem;
+  overflow-x: hidden;
+}
+
+#namedata {
+  max-width: 200px;
+}
+
+/* #name-header {
+  min-width: 200px;
+} */
+
+p #titledashboard {
+  vertical-align: middle;
+}
+
+#titledash {
+  display: inline;
+}
+#titleline {
+  font-size: 200%;
+  display: inline;
+}
+
+#titlelink {
+  font-size: 110%;
+  display: inline;
+}
+
+.userview-thead {
+  background-color: #5ce1e6;
+  border-color: #5ce1e6;
+  font-weight: 600;
+  width: 100px;
+}
+
+.column-hasacc {
+  width: 130px !important;
+  border-bottom-width: 2 !important;
+}
+
+.userslist-column-datecreated {
+  width: 150px !important;
+  border-bottom-width: 2 !important;
+}
+
+.userslist-column-phoneno {
+  width: 160px !important;
+}
+
+.userslist-column-primaryskills {
+  width: 175px !important;
+}
+
+.userslist-column-secondaryskills {
+  width: 175px !important;
+}
+
+.userslist-column-contractstartdate {
+  width: 145px !important;
+}
+
+.userslist-column-contractenddate {
+  width: 145px !important;
+}
+
+.userslist-column-datemodified {
+  width: 150px !important;
+}
+
+.userslist-column-dailyrate {
+  width: 120px !important;
+}
+
+.userlist-table-title {
+  padding-top: 0rem !important;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.userdash-thead {
+  background-color: #5ce1e6;
+  border-color: #5ce1e6;
+  font-weight: 600;
+}
+
+.column-addapp {
+  vertical-align: text-top !important;
+  width: 10px !important;
+  border-bottom-width: 2 !important;
+}
+
+#userlist-content {
+  display: table-cell;
+  width: 100%;
+  /* vertical-align: top; */
+  padding: 0rem;
+  overflow-x: hidden;
+}
+
+.userlist-createapp {
+  margin-top: 86px !important;
+  margin-right: 2px !important;
+}
+
+.row-cardsize {
+  padding: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  max-width: 270px;
+  width: 100%;
+  text-indent: initial;
+  margin: 1px;
+}
+
+.text-centeruser {
+  text-align: center !important;
+  margin: 0.5rem !important;
+  margin-bottom: 0.75rem;
+}
+
+.userdash-pop {
+  margin-top: -620px;
+  margin-right: -19px;
+  width: 50%;
+  float: right;
+}
+
+.hasaccount-column {
+  width: 80% !important;
+}
+
+.carduserdetails {
+  margin: 20px;
+  margin: 0.5rem !important;
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 5px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  flex: 1 1 auto;
+  min-height: 1px;
+  margin: 0.1rem !important;
+}
+.createuser-col-auto {
+  width: 470px;
+  max-width: 100%;
+  margin-right: 20px !important;
+  margin-top: -25.5rem;
+  position: absolute;
+  right: 0;
+}
+
+.createuser-cancel-btn {
+  margin-left: 160px !important;
+}
+
+.userlist-createuser {
+  margin-right: 0px !important;
+}
+
+.titlecard {
+  max-width: 66.666667%;
+}
+
+.rowCard {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.iconCard {
+  text-align: center !important;
+  vertical-align: middle !important;
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+  padding: 0px !important;
+}

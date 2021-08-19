@@ -1,0 +1,42 @@
+.profile-title {
+  font-size: xxx-large;
+  padding-left: 40%;
+}
+
+.avatarpicture {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+/* Control input box width */
+.form-inline .form-control {
+  padding-left: 15px;
+}
+
+.form-group.form-inline.form-row.profile {
+  margin: 15px 0 15px 0;
+  font-size: normal;
+}
+
+.form-control {
+  padding-left: 10px;
+}
+
+/* Control react-select dropdown list width */
+.basic-multi-select {
+  max-width: 300px;
+  text-align: left;
+  font-weight: 400;
+  padding-left: 0px;
+}
+
+.profile-button-group {
+  margin: 15px 0px;
+  padding-left: 352px;
+}
+
+/* *{
+  outline: 1px solid red
+} */

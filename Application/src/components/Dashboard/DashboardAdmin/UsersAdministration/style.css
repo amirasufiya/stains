@@ -1,0 +1,50 @@
+table th {
+  padding: 0 !important;
+}
+
+.table-header-text {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.header-width {
+  min-width: 200px;
+}
+.header-width-id {
+  min-width: 80px;
+}
+.header-width-date {
+  min-width: 150px;
+} 
+
+/* Align checkbox table header text center */
+.header-checkbox {
+  text-align: center;
+}
+
+/* Align checkbox in table cell */
+.checkbox {
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.useradmin-table-thead {
+  background-color: #5ce1e6;
+  border-color: #5ce1e6;
+  font-weight: 600 !important;
+}
+
+.useradmin-icon {
+  color: #fff;
+}
+
+.useradmin-search.show{
+  background-color: #5ce1e6 !important;
+
+}
+/* Align icons */
+.user-hasaccount-icon {
+  padding-right: 5px;
+}

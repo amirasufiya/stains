@@ -1,0 +1,58 @@
+#employment-content {
+  display: table-cell;
+  width: 100%;
+  vertical-align: top;
+  padding: 0rem;
+}
+
+.employment-table-title {
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.employment-table-thead {
+  background-color: #5ce1e6;
+  border-color: #5ce1e6;
+  font-weight: 600 !important;
+}
+
+.employment-icon {
+  color: #fff;
+}
+
+.employment-search.show {
+  background-color: #5ce1e6 !important;
+}
+
+#employment-pop {
+  position: absolute;
+  right: 0;
+}
+
+.employment-col-auto {
+  width: 470px;
+  max-width: 100%;
+  margin-right: 20px !important;
+}
+
+.employment-createnew {
+  margin-top: 52px !important;
+}
+
+.employment-cancel-btn {
+  margin-left: 150px !important;
+}
+
+.employment-name {
+  font-size: 15px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.employment-create-title {
+  margin-left: 30px;
+}
+
+.employment-create-button {
+  margin-right: 120px;
+}

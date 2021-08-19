@@ -1,0 +1,16 @@
+.roles-name {
+  font-size: 15px;
+  margin-top: 10px;
+  padding-right: 20px !important;
+}
+
+.roles-create-title{
+  margin-left: 30px !important;
+  margin-right: 50px !important;
+}
+
+.roles-create-button{
+  margin-right: 45px !important;
+  margin-left: 0px !important;
+  margin-bottom: 0px !important;
+}

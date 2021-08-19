@@ -1,0 +1,13 @@
+.notloggedin-table-thead {
+  background-color: #5ce1e6;
+  border-color: #5ce1e6;
+  font-weight: 600 !important;
+}
+
+.notloggedin-icon {
+  color: #fff;
+}
+
+.notloggedin-search.show{
+  background-color: #5ce1e6 !important;
+}
